@@ -37,12 +37,9 @@ Supported by `Wellcome`_ and `EPSRC`_.
 
 
 .. _`Wellcome EPSRC Centre for Interventional and Surgical Sciences`: http://www.ucl.ac.uk/weiss
-.. _`source code repository`: https://github.com/UCL/scikit-surgeryfred
-.. _`Documentation`: https://scikit-surgeryfred.readthedocs.io
 .. _`SciKit-Surgery`: https://github.com/UCL/scikit-surgery/wiki
 .. _`University College London (UCL)`: http://www.ucl.ac.uk/
 .. _`Wellcome`: https://wellcome.ac.uk/
 .. _`EPSRC`: https://www.epsrc.ac.uk/
-.. _`contributing guidelines`: https://github.com/UCL/scikit-surgeryfred/blob/master/CONTRIBUTING.rst
-.. _`license file`: https://github.com/UCL/scikit-surgeryfred/blob/master/LICENSE
+.. _`license file`: https://github.com/thompson318/scikit-surgery-rse2021-poster/blob/master/LICENSE
 
