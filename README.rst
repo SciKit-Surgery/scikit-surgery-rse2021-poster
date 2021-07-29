@@ -22,6 +22,9 @@ SciKit-Surgery: What's New, Poster for RSE2021
 
 Authors: Stephen Thompson, Tom Dowrick, Mian Ahmad, Matthew Clarkson 
 
+For now we will try using the tutorial at
+
+https://cpitclaudel.github.io/academic-poster-template/tutorial/poster.html
 
 Licensing and copyright
 -----------------------
