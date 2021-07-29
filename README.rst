@@ -2,14 +2,18 @@ SciKit-Surgery: What's New, Poster for RSE2021
 ==============================================
 
 .. image:: https://github.com/ucl/scikit-surgery/raw/web/assets/logo.svg
-   :width: 256px
+   :width: 512px
    :target: https://github.com/ucl/scikit-surgery
    :alt: Logo
 
-.. image:: https://img.shields.io/badge/Read-SciKit--SurgeryFRED-informational
-   :target: https://discovery.ucl.ac.uk/id/eprint/10112339/7/Thompson_115980U.pdf
-   :alt: The SciKit-SurgeryFRED paper
 
+.. image:: https://img.shields.io/badge/Cite-SciKit--Surgery-informational
+   :target: https://doi.org/10.1007/s11548-020-02180-5
+   :alt: The SciKit-Surgery paper
+
+.. image:: https://img.shields.io/badge/-SciKit%20Surgery-blueviolet?style=flat&logo=youtube
+   :target: https://youtu.be/0z8eIjqAbzQ
+   :alt: SciKit-Surgery on YouTube
 
 Authors: Stephen Thompson, Tom Dowrick, Mian Ahmad, Matthew Clarkson 
 
