@@ -30,7 +30,8 @@ Licensing and copyright
 -----------------------
 
 Copyright 2021 Stephen Thompson 
-The poster and it's source code is released under a Creative Commons License. Please see the `license file`_ for details.
+
+The poster and its source code is released under a Creative Commons License. Please see the `license file`_ for details.
 
 
 Acknowledgements
