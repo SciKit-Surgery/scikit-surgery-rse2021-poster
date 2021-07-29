@@ -1,9 +1,9 @@
 SciKit-Surgery: What's New, Poster for RSE2021
 ==============================================
 
-.. image:: https://github.com/thompson318/scikit-surgery-rse2021-poster/raw/master/assets/logo.svg
+.. image:: https://github.com/ucl/scikit-surgery/raw/web/assets/logo.svg
    :width: 256px
-   :target: https://github.com/scikit-surgery
+   :target: https://github.com/ucl/scikit-surgery
    :alt: Logo
 
 .. image:: https://img.shields.io/badge/Read-SciKit--SurgeryFRED-informational
