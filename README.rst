@@ -26,6 +26,11 @@ For now we will try using the tutorial at
 
 https://cpitclaudel.github.io/academic-poster-template/tutorial/poster.html
 
+You may need to install the less css compiler
+
+sudo npm install -g less
+
+
 Licensing and copyright
 -----------------------
 
