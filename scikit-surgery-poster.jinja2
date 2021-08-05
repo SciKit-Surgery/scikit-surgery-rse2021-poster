@@ -1,0 +1,51 @@
+{% extends "poster.jinja2" %}
+
+{## Header ##}
+
+{% set poster_title = "SciKit-Surgery, What's New?" %}
+{% set poster_subtitle = "Progress on Compact Libraries for Surgical Navigation" %}
+
+{% set venue = "SeptembRSE 2021" %}
+
+{% set webpage_title = poster_title + " — " + poster_subtitle %}
+
+{% set project_url = "http://scikit-surgery.org" %}
+
+{% set pub_datetime_iso = "2021-09-01" %}
+{% set pub_date = "September 1, 2021" %}
+
+{% block custom_head %}
+<style type="text/css">
+  html { font-size: 1.15rem }
+</style>
+{% endblock %}
+
+{% block authors %}
+  <a property="author">Stephen Thompson<sup>a</sup></a>
+  <a property="author">Thomas Dowrick<sup>a</sup></a>
+  <a property="author">Mian Ahmad<sup>a</sup></a>
+  <a property="author">Matthew J. Clarkson<sup>a</sup></a>
+{% endblock %}
+
+{% block affiliations %}
+  <sup>a</sup><a property="sourceOrganization">Wellcome/EPSRC Centre for Interventional and Surgical Sciences</a>
+{% endblock %}
+
+{% block project_logos %}
+  <a href="{{ project_url }}"><img style="background: #ffff99" src="logos/logo.png" alt="SciKit-Surgery Logo"></a>
+{% endblock %}
+
+{% block logos %}
+  <a href="https://ucl.ac.uk"><img id="ucllogo" style="background: #ffff99" src="logos/UCL_logo_white.png" alt="UCL Logo"></a>
+{% endblock %}
+
+{% block funder_logos %}
+  <a href="https://wellcome.org/"><img style="background: #ffff99" src="logos/_Wellcome_logo_Black.png" alt="Wellcome Logo"></a>
+  <a href="https://www.ukri.org/councils/epsrc/"><img style="background: #ffff99" src="logos/EPSRC+logo.png" alt="EPSRC Logo"></a>
+{% endblock %}
+
+{% block centre_logo %}
+  <a href="https://septembrse.society-rse.org/"><img style="background: #ffff99" src="https://septembrse.society-rse.org/wp-content/uploads/sites/3/2021/07/septembRSE_official_banner_no_background_moved.png" alt="SeptembRSE Logo"></a>
+  <a href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img style="background: #ffff99" src="logos/weiss.png" alt="WEISS Logo"></a>
+{% endblock %}
+
