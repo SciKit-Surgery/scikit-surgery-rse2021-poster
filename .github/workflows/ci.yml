@@ -11,8 +11,7 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           sudo npm install -g less
-          make build/index.html
-	  make build/assets
+          make 
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
