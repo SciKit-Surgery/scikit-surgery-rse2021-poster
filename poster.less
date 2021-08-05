@@ -53,6 +53,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 //////////////////////
 
 @header-img-height: 5rem;
+@footer-img-height: 5rem;
 
 @columns: 4;
 @column-min-width: 22.5rem;
@@ -184,6 +185,12 @@ body {
         grid-gap: @mid-space;
         padding: @mid-space;
         text-align: center;
+    }
+
+    > footer {
+	img {
+	    max-height: @footer-img-height;
+	}
     }
 
     > header {

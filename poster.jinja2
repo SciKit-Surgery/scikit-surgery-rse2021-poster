@@ -76,6 +76,12 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </main>
 
     <footer>
+      <aside>
+        {% block funder_logos %}
+          <a href="https://example.com/project"><img src="project-logo.png" alt="Project logo"></a>
+        {% endblock %}
+      </aside>
+
       <address class="monospace">
         {%- block project_link -%}
           <a href="{{ project_url }}">{{ project_url }}</a>
