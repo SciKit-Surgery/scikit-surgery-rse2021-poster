@@ -1,16 +1,16 @@
-all: docs/scikit-surgery-poster.html docs/poster.css
+all: index.html assets/poster.css
 
-docs/poster.css: poster.less
+assets/poster.css: poster.less assets/
 	lessc --strict-units=on $< $@
 
-docs/%/:
+%/:
 	mkdir -p $@
 
-docs/scikit-surgery-poster.html: scikit-surgery-poster.jinja2 poster.jinja2 docs/poster.css
+index.html: scikit-surgery-poster.jinja2 poster.jinja2 assets/poster.css
 	./render.py $< $@
 
 clean:
-	rm docs/poster.css
-	rm -fr docs/poster.{html,css}
+	rm index.html
+	rm -fr assets/poster.{html,css}
 
 .SECONDARY:
