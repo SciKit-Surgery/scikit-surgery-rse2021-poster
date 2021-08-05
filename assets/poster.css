@@ -222,7 +222,7 @@ article > .MathJax_MathML {
 }
 article > header {
   background: #2e3436;
-  color: #fcaf3e;
+  color: #729fcf;
   margin: 0 -0.5rem auto -0.5rem;
   padding: 0.25rem 0.5rem;
 }
@@ -266,7 +266,7 @@ article ol > li::before {
   width: 1em;
 }
 article ul > li::before {
-  background: #f57900;
+  background: #3465a4;
   border-radius: 100%;
   content: " ";
   height: 0.35em;
@@ -289,7 +289,7 @@ article ul.inline li::before {
   display: none;
 }
 .boxed {
-  border: thin solid #f57900;
+  border: thin solid #3465a4;
   padding: 0.25rem;
 }
 .center {
