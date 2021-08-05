@@ -10,6 +10,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
+	  sudo npm install -g less
           make index.html
 
       - name: Deploy 🚀
