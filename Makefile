@@ -1,16 +1,28 @@
-all: index.html assets/poster.css
+default: build/index.html 
 
-assets/poster.css: poster.less assets/
+ASSETS = build/assets/UCL_logo_white.png \
+	 build/assets/EPSRC+logo.png \
+	 build/assets/logo.png \
+	 build/assets/weiss.png \
+	 build/assets/_Wellcome_logo_Black.png
+
+build/assets: build/
+	mkdir -p $@
+
+build/assets/poster.css: poster.less build/assets/
 	lessc --strict-units=on $< $@
 
 %/:
 	mkdir -p $@
 
-index.html: scikit-surgery-poster.jinja2 poster.jinja2 assets/poster.css
+build/index.html: scikit-surgery-poster.jinja2 poster.jinja2 \
+		  build/assets/poster.css $(ASSETS)
 	./render.py $< $@
 
+build/assets/%.png: logos/%.png build/assets
+	cp $< $@
+
 clean:
-	rm index.html
-	rm -fr assets/poster.{html,css}
+	rm -r build
 
 .SECONDARY:
