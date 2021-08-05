@@ -51,7 +51,21 @@
 {% block contents %}
   <article property="abstract">
     <header><h3>Abstract</h3></header>
-    <p>Here's some stuff about SciKit-Surgery.</p>
-    <p>And here's some more stuff about SciKit-Surgery.</p>
+      <p>Development of the SciKit-Surgery libraries began at the 
+      <a href="https://www.ucl.ac.uk/interventional-surgical-sciences/">Wellcome/EPSRC Centre for Interventional and Surgical Sciences</a> 
+      3 years ago. The libraries are designed to support translational research in interventional medicine. Until
+      March 2020 they were known as the <a href=https://doi.org/10.5281/zenodo.3662137>SNAPPY</a> libraries.
+      We rebranded them at <a href=https://youtu.be/0z8eIjqAbzQ>IPCAI 2020</a>
+      to make it easier to find the libraries online.</p>
+      <p>The development goals and strategies for SciKit-Surgery were 
+      outlined in our <a href=https://doi.org/10.1007/s11548-020-02180-5>2020 paper.</a>
+      This poster outlines what progress we have made over the last 18 months and discusses some of the software engineering challenges we have faced.</p> 
+
   </article>
+
+  <article property="dashboard">
+    <header><h3>SciKit-Surgery Dashboard</h3></header>
+    <p>Keeping the libraries small and independent has been helpful in terms of the maintainability of individual libraries, however it does make it difficult to keep track of all the different libraries. We therefore creates the <a href="http://github-pages.ucl.ac.uk/scikit-surgery-stats/">SciKit-Surgery dashboard</a> which uses a set of scripts to help automate the process of finding and reporting on SciKit-Surgery libraries.</p>
+  </article>
+
 {% endblock %}
