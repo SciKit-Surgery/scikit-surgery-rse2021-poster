@@ -4,7 +4,7 @@ ASSETS = build/assets/UCL_logo_white.png \
 	 build/assets/EPSRC+logo.png \
 	 build/assets/logo.png \
 	 build/assets/weiss.png \
-	 build/assets/_Wellcome_logo_Black.png
+	 build/assets/Wellcome_Black.png
 
 build/assets: build/
 	mkdir -p $@
