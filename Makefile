@@ -1,6 +1,6 @@
 default: build/index.html 
 
-ASSETS = build/assets/UCL_logo_white.png \
+ASSETS = build/assets/UCL_logo_grey.png \
 	 build/assets/EPSRC+logo.png \
 	 build/assets/logo.png \
 	 build/assets/weiss.png \
