@@ -1,10 +1,10 @@
 SciKit-Surgery: What's New, Poster for RSE2021
 ==============================================
 
-.. image:: https://github.com/ucl/scikit-surgery/raw/web/assets/logo.svg
-   :width: 512px
-   :target: https://github.com/ucl/scikit-surgery
-   :alt: Logo
+.. image:: https://github.com/ucl/scikit-surgery-rse2021-poster/raw/master/sk_rse_poster.png
+   :width: 400px
+   :target: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
+   :alt: View the poster here
 
 |
 
@@ -22,13 +22,10 @@ SciKit-Surgery: What's New, Poster for RSE2021
 
 |
 
-.. image:: https://github.com/ucl/scikit-surgery-rse2021-poster/raw/master/sk_rse_poster.png
-   :width: 256px
-   :target: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
-   :alt: View the poster here
-View the `Poster`_.
 
 Authors: Stephen Thompson, Tom Dowrick, Mian Ahmad, Matthew Clarkson 
+
+View the `Poster here`_.
 
 For now we will try using the tutorial at
 
@@ -59,4 +56,4 @@ Supported by `Wellcome`_ and `EPSRC`_.
 .. _`Wellcome`: https://wellcome.ac.uk/
 .. _`EPSRC`: https://www.epsrc.ac.uk/
 .. _`license file`: https://github.com/thompson318/scikit-surgery-rse2021-poster/blob/master/LICENSE
-.. _`Poster`: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
+.. _`Poster here`: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
