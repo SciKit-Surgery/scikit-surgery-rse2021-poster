@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Thompson"
+  given-names: "Stephen"
+  orcid: "https://orcid.org/0000-0001-7286-1326"
+- family-names: "Dowrick"
+  given-names: "Thomas"
+- family-names: "Ahmad"
+  given-names: "Mian"
+- family-names: "Clarkson"
+  given-names: "Matthew"
+title: "SciKit-Surgery, What's New"
+version: 0.2
+doi: 10.5281/zenodo.5359898
+date-released: 2021-09-07
+url: "https://github.com/UCL/scikit-surgery-rse2021-poster"
