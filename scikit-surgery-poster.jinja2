@@ -71,35 +71,47 @@
 
 
   <article property="code base analysis">
-    <header><h3>Code Base Analysis</h3></header>
-	<p>Is SciKit-Surgery compact, well tested and sustainable?</p>
+    <header><h3>Code Base Analysis: Is SciKit-Surgery well tested and sustainable? </h3></header>
+<p>Based on the 
+dashboard the majority of the libraries have some CI testing though coverage is not always high enough. In some cases this is due to the difficulty of implementing CI testing for libraries that interface with hardware, (eg. NDI tracking systems or ultrasound machines). In other cases it is simply down to a lack of enforced rigour in the development process.</p>
+<p>We have started to investigate sntk's package health metrics and CodeClimate's maintainability metrics. We are still assessing the usefulness of these metrics. The maintainability metric provides an interesting insight, as although are alphanumeric scores are low (C's) the suggested time to fix any maintenance issues is usually less than a day. This is a function of the small size of most of the
+libraries.
   </article>
+
+  <article property="code base analysis">
+    <header><h3>Library Size: Is SciKit-Surgery compact?</h3></header>
+	
+	<p>Informal analysis of the size of the individual libraries indicates that most of them still fall below 2000 lines of code, which we aimed for in our original publication. Where libraries have started to grow beyond this limit we have split the library, for example SciKit-SurgeryCalibration was split from SciKit-SurgeryImage. This process can be done with minimal effort thanks to Python's robust package management systems.</p>
+	<p>We are in the process of implementing a line counting script into the SciKit-Surgery dashboard, to track the way the library sizes has changed over time.</p>
+	</article>
 
   <article property="successses">
     <header><h3>Success Stories</h3></header>
 	<p>SciKit-Surgery libraries have been used for 
-	 research and translation including: 
-		<a href="https://link.springer.com/article/10.1007/s00464-020-07807-x">
+	 research and translation including;
+	<ul> 
+		<li>	<a href="https://link.springer.com/article/10.1007/s00464-020-07807-x">
 			<span title="SmartLiver is an augmented reality for system for keyhole liver resection, currently undergoing trials at the Royal Free Hospital">SmartLiver,
 			</span>
-		</a>,
-		 <a href="https://link.springer.com/article/10.1007/s11548-021-02374-5">
+		</a></li>
+		 <li><a href="https://link.springer.com/article/10.1007/s11548-021-02374-5">
 			<span title = "Skull base navigation combines SciKit-Surgery libraries with 3DSlicer to create a clinical application for ultrasound based navigation for skull base surgery">Skull base navigation,
 			</span>
-		</a> 
-		<a href="https://scikit-surgeryfred.ew.r.appspot.com/">
+		</a> </li>
+		<li><a href="https://scikit-surgeryfred.ew.r.appspot.com/">
 	 		<span title = "The SciKit-Surgery Fiducial Registration Educational Demonstration was developed in 2020 to provide an educational resource and research platform for studying registration in image guided surgery.">SciKit-SurgeryFRED,
 			</span>
-		</a>
-		<a href="https://github.com/UCL/scikit-surgerybard">
+		</a></li>
+		<li><a href="https://github.com/UCL/scikit-surgerybard">
 			<span title = "The SciKit-Surgery Basic Augmented Reality Demonstration forms a minimalist system for running augmented reality in surgery or in the classroom. It can use OpenCV's ArUco markers for tracking or be integrated with clinical grade NDI trackers. BARD has been used extensively for teaching and public engagement activities.">SciKit-SurgeryBARD,
 			</span>
-		</a>
-		<a href="https://github.com/astaolaf/glenoidplanefitting">
+		</a></li>
+		<li><a href="https://github.com/astaolaf/glenoidplanefitting">
 			<span title = "A key aim of SciKit-Surgery is to enable students and researchers to rapidly create clinically usable and sustainable software libraries. In the summer of 2021 we demonstrated this capability with SciKit-SurgeryGlenoid which was developed in under 10 weeks by a student intern and forms the basis of a submission to SPIE Medical Imaging 2022 and further ongoing work">and SciKit-SurgeryGlenoid.
 			</span>
-		</a>
+		</a></li>
 
+	</ul>
 		<p>Our next aim is to expand our work in reproducible science and the software 
 		infrastructure required to support it. A key recent development in this area is 
 		<a href="https://github.com/UCL/scikit-surgerychallenge">
