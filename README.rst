@@ -16,7 +16,7 @@ SciKit-Surgery: What's New, Poster for RSE2021
    :target: https://youtu.be/0z8eIjqAbzQ
    :alt: SciKit-Surgery on YouTube
 
-.. image:: https://img.shields.io/badge/-SeptembRSE-informational
+.. image:: https://img.shields.io/badge/Best%20Poster-SeptembRSE-informational
    :target: https://septembrse.society-rse.org/
    :alt: SeptembRSE
 
