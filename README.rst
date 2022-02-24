@@ -1,9 +1,9 @@
 SciKit-Surgery: What's New, Poster for RSE2021
 ==============================================
 
-.. image:: https://github.com/ucl/scikit-surgery-rse2021-poster/raw/master/sk_rse_poster.png
+.. image:: https://github.com/SciKit-Surgery/scikit-surgery-rse2021-poster/raw/master/sk_rse_poster.png
    :width: 400px
-   :target: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
+   :target: https://scikit-surgery.github.io/scikit-surgery-rse2021-poster/
    :alt: View the poster here
 
 |
@@ -56,4 +56,4 @@ Supported by `Wellcome`_ and `EPSRC`_.
 .. _`Wellcome`: https://wellcome.ac.uk/
 .. _`EPSRC`: https://www.epsrc.ac.uk/
 .. _`license file`: https://github.com/thompson318/scikit-surgery-rse2021-poster/blob/master/LICENSE
-.. _`Poster here`: https://github-pages.ucl.ac.uk/scikit-surgery-rse2021-poster/
+.. _`Poster here`: https://scikit-surgery.github.io/scikit-surgery-rse2021-poster/
