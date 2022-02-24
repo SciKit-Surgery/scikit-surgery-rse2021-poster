@@ -51,7 +51,7 @@ Supported by `Wellcome`_ and `EPSRC`_.
 
 
 .. _`Wellcome EPSRC Centre for Interventional and Surgical Sciences`: http://www.ucl.ac.uk/weiss
-.. _`SciKit-Surgery`: https://github.com/UCL/scikit-surgery/wiki
+.. _`SciKit-Surgery`: https://github.com/SciKit-Surgery/
 .. _`University College London (UCL)`: http://www.ucl.ac.uk/
 .. _`Wellcome`: https://wellcome.ac.uk/
 .. _`EPSRC`: https://www.epsrc.ac.uk/
